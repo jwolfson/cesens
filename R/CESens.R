@@ -7,6 +7,7 @@
 
 #Load libraries
 library(rpanel)
+library(tcltk)
 library(tkrplot)
 library(boot)
 
