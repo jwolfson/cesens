@@ -6,10 +6,10 @@
 
 
 #Load libraries
-library(rpanel)
-library(tcltk)
-library(tkrplot)
-library(boot)
+#library(rpanel)
+#library(tcltk)
+#library(tkrplot)
+#library(boot)
 
 #Define sensitivity analysis tool as a function.
 CESens <- function(data=NULL, meanS1=0, sdS1=1) {
