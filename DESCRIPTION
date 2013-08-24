@@ -1,8 +1,8 @@
 Package: CESens
 Type: Package
 Title: Sensitivity Analysis For Causal Effect Estimation
-Version: 1.02
-Date: 2013-08-17
+Version: 1.0.2
+Date: 2013-08-23
 Author: Lisa Henn 
 Maintainer: Julian Wolfson <julianw@umn.edu>
 Description: An interactive tool for estimating principal stratification-based causal effects 
