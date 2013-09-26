@@ -9,7 +9,8 @@ Change log for package CESens:
   * V 1.01 7 March 2013 Lisa Henn, henn0449@umn.edu.
   Minor documentation corrections per request by Comprehensive R Archive Network.  
   
- * V 1.0.2 23 August 2013 Lisa Henn, henn0449@umn.edu.
+ * V 1.0.2 26 September 2013 Lisa Henn, henn0449@umn.edu.
    CRAN got a message that 'tcltk' in Depends in DESCRIPTION file is also handled
    via a library() call.  A library() call to tkrplot in turn loads tcltk.  Commented
-   out all library calls in the source code makes R CMD check run cleanly.
+   out all library calls in the source code as well as the call to require() in the 
+   file.nav() function to make R CMD check run cleanly.
