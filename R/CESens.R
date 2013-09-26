@@ -311,7 +311,7 @@ readfile <- function(object) {
 }
 
 file.nav <- function(panel) {
-  require(tcltk)
+#  require(tcltk)
   fileName <- tclvalue(tkgetOpenFile()) # Very simple, isn't it?
   if (!nchar(fileName)) {
       tkmessageBox(message = "No file was selected!")
