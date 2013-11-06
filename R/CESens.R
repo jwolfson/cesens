@@ -6,10 +6,10 @@
 
 
 #Load libraries
-library(rpanel)
-library(tcltk)
-library(tkrplot)
-library(boot)
+#library(rpanel)
+#library(tcltk)
+#library(tkrplot)
+#library(boot)
 
 #Define sensitivity analysis tool as a function.
 CESens <- function(data=NULL, meanS1=0, sdS1=1) {
@@ -311,7 +311,7 @@ readfile <- function(object) {
 }
 
 file.nav <- function(panel) {
-  require(tcltk)
+#  require(tcltk)
   fileName <- tclvalue(tkgetOpenFile()) # Very simple, isn't it?
   if (!nchar(fileName)) {
       tkmessageBox(message = "No file was selected!")
