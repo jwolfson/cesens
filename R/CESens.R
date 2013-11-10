@@ -891,14 +891,14 @@ rp.tkrplot(master.panel, plotS1Y0, plotfun=initS1Y0,
 rp.radiogroup(master.panel, distnmS1,
                    labels=c("Normal", "Gamma", "Non-Parametric"),
                    title="S(1) Distribution Options",
-                   values=c("n", "g", "np"), action=replotS1Y0, 
+                   vals=c("n", "g", "np"), action=replotS1Y0, 
                    row=1, column=0, sticky="ns", rowspan=4)
 
 #Select S1Y0 distribution
 rp.radiogroup(master.panel, distnmS1Y0,
                    labels=c("Normal", "Gamma", "Shifted S(1) Non-parm."),
                    title="S(1)|Y(0)=1 (Sensitivity) Options",
-                   values=c("n", "g", "np"), action=replotS1Y0, 
+                   vals=c("n", "g", "np"), action=replotS1Y0, 
                    row=1, column=1, sticky="ns", rowspan=4)
 
 #Offest S1Y0 mean by a value set by the slider that is scaled by the value
